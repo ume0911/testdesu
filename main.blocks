@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="fcjvfhfcqIch3@*?]%bH" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="8[A^(@r}Wy+Z`TZL4md3"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . . . . 
+        . # . . . 
+        . . # . .
+        `</field></block></statement></block><block type="device_forever" id="AI@;}7tBGT-,6zuE0^H)" x="205" y="0"><statement name="HANDLER"><block type="device_set_analog_pin" id="Va%dq6?M,f,o_*5%Vz3C"><field name="name">AnalogPin.P1</field><value name="value"><shadow type="math_number_minmax" id="P^,KY^*Yi=i,ZkqiQkhk"><mutation min="0" max="1023" label="Value" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="3IBfR:nv[hLvn^@J7b-:"><value name="pause"><shadow type="timePicker" id="E#Z-5w_OU}2n4,M3V;lN"><field name="ms">5000</field></shadow></value><next><block type="device_set_analog_pin" id="_4A,F}U]Lzbl/s{$L[f."><field name="name">AnalogPin.P1</field><value name="value"><shadow type="math_number_minmax" id="0m,NlU[0g9Q#[AK-8zj_"><mutation min="0" max="1023" label="Value" precision="0"/><field name="SLIDER">1023</field></shadow></value><next><block type="device_pause" id="~L`TiAG~X=Z|=_ljw`j+"><value name="pause"><shadow type="timePicker" id="/I:MUzV]r)q:UGe:90{4"><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
